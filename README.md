@@ -17,7 +17,7 @@ CCF会议的截止日期: https://ccfddl.github.io/
 - 唐国根	Teigenm(https://github.com/Teigenm)
 - 李丽	Lily029106(https://github.com/Lily029106)
 - 陈娜	nachen-na(https://github.com/nachen-na)
-- 黄恺文
+- 黄恺文 kkkkkiven(https://github.com/kkkkkiven)
 - 李国伟 	lgw9527111(https://github.com/lgw9527111)
 - 胡诗琪 	Nancy206-hu(https://github.com/Nancy206-hu)
 - 李攀	bert-ply(https://github.com/bert-ply)
@@ -294,3 +294,16 @@ CCF会议的截止日期: https://ccfddl.github.io/
    - 动机：
    - 论文方法：
      - （1）。
+
+#### 2022.1.4
+
+ - 【协同过滤-超图应用】研讨
+
+   - 论文： Dual Channel Hypergraph Collaborative Filtering
+   - 论文地址：https://dl.acm.org/doi/10.1145/3394486.3403253
+   - 分享汇报：黄恺文
+   - 动机： 1、user-item的不灵活建模
+           2、基于图的CF中高阶相关性建模不足
+   - 论文方法：
+     - （1）双通道学习策略：分别构建user & item的超图，利用分治策略，分别学习用户和物品的表示，使这两种类型的数据可以优雅地相互连接，同时保持其特定属性。
+     - （2）借鉴AAAI2019中超图神经网络的卷积方式，利用超图结构对用户和具有显式混合高阶相关性的物品进行建模。提出了跳跃超图卷积(JHConv)方法(类似 ResNet 的结构)，实现高阶关系嵌入的显式和有效传播。
